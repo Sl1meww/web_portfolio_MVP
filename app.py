@@ -3,7 +3,7 @@ from base64 import b64encode
 
 def web_portfolio():
     # page configs 
-    st.set_page_config(page_title = "Said's Portfolio",page_icon="⭐")
+    st.set_page_config(page_title = "Artem's Portfolio",page_icon="⭐")
     # Set the page title
     st.write(f"""
     <div class="title" style="text-align: center;">
@@ -62,9 +62,9 @@ def web_portfolio():
               unsafe_allow_html=True)
 # Add Social Icons
     social_icons_data = {
-    "Kaggle": ["https://www.kaggle.com/saidhem", "https://www.kaggle.com/static/images/site-logo.svg"],
-    "LinkedIn": ["https://www.linkedin.com/in/said-h-1956b0161/", "https://cdn-icons-png.flaticon.com/128/3536/3536505.png"],
-    "GitHub": ["https://github.com/shirdarec", "https://cdn-icons-png.flaticon.com/128/5968/5968866.png"],
+    "Kaggle": ["https://www.kaggle.com/Artem Shendryk", "BBhttps://www.kaggle.com/static/images/site-logo.svg"],
+    "LinkedIn": ["https://www.linkedin.com/in/Artem-h-1956b0161/", "https://cdn-icons-png.flaticon.com/128/3536/3536505.png"],
+    "GitHub": ["https://github.com/Artem", "https://cdn-icons-png.flaticon.com/128/5968/5968866.png"],
     }
 
     social_icons_html = [
@@ -85,7 +85,7 @@ def web_portfolio():
     st.subheader("About Me")
 
     st.markdown("""
-    - 🧑‍💻🚀 I am a **Data Scientist and Gen AI developer** at [Digna AS](https://www.Digna.no/), 
+    - 🧑‍💻🚀 I  am a **Data Scientist and Gen AI developer** at [Digna AS](https://www.Digna.no/), 
     where I am currently working on an AI platform to help simplify public information to newcomers to Norway.
     - ❤️ I am passionate about *Machine Learning/Deep Learning, Artifical intelligence, Data Science, Software Engineering, 
    Data Analytics, Automation*, and more!
